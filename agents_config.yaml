@@ -1,0 +1,30 @@
+agents:
+  # 写文档 Agent
+  doc_writer:
+    name: "写文档Agent"
+    description: "负责根据需求或代码自动生成项目文档"
+    models:
+      - "kimi K2.5 Free"
+      - "GLM-5 Free"
+
+  # 审核文档 Agent
+  doc_reviewer:
+    name: "审核文档Agent"
+    description: "负责审查生成的文档，确保完整性、准确性和格式规范，并提出修改建议"
+    models:
+      - "kimi K2.5 Free"
+      - "GLM-5 Free"      
+  # 写代码 Agent
+  code_writer:
+    name: "写代码Agent"
+    description: "负责根据详细设计文档或业务需求编写高质量的代码"
+    models:
+      - "kimi K2.5 Free"
+      - "GLM-5 Free"
+  # 审核代码 Agent
+  code_reviewer:
+    name: "审核代码Agent"
+    description: "负责进行代码审查，找出潜在的bug、逻辑错误及提供架构和性能优化建议"
+    models:
+      - "kimi K2.5 Free"
+      - "GLM-5 Free"
